@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-cream text-ink font-sans;
+}
+
+/* sticker badge like BEST SELLERS / REVIEWS / JOURNAL */
+.sticker {
+  @apply font-condensed uppercase inline-block px-3 py-1 rounded-md border border-ink;
+  transform: rotate(-2deg);
+  letter-spacing: 0.02em;
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* orange tile grid for Great Tea section */
+.tile-bg {
+  background-color: #e85d19;
+  background-image:
+    linear-gradient(#fff 2px, transparent 2px),
+    linear-gradient(90deg, #fff 2px, transparent 2px);
+  background-size: 44px 44px;
+}
