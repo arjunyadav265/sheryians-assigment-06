@@ -21,7 +21,7 @@ function Footer() {
           <div><p className="font-serif text-white text-[14px] mb-2">Cafe & Wholesale Partners</p>Cafe & Wholesale Partners<br />Wholesale Login<br />Product and Media Files<br />Displays & Starter Kits<br />Brew Guide<br />Wholesale Catalog</div>
         </div>
         <p className="text-center font-serif italic text-[48px] mt-10 leading-none text-ink">two leaves<br />and a bud</p>
-        <p className="text-center font-mono text-[10px] pb-8 mt-2">© Two Leaves and a Bud 2026 — student clone, images © twoleavestea.com</p>
+        <p className="text-center font-mono text-[10px] pb-8 mt-2">© Two Leaves and a Bud 2026 </p>
       </div>
 
       <button className="fixed bottom-4 left-14 bg-navy text-white text-[12px] px-5 py-2.5 rounded-t-xl rounded-br-xl">Get 10% Off</button>
